@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Robotsource by team5450</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/team5450/robotsource">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/team5450/robotsource/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/team5450/robotsource/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Robotsource</h1>
+          <p>The source for FRC 2015 Robotsource</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/team5450">team5450</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="team-5450" class="anchor" href="#team-5450" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team 5450</h1>
+
+<hr>
+
+<p>This project contains the source code for FRC team 5450's 2015 robot. The project was written and compiled with the WPILib packages in Eclipse, with the language being c++. As for the code, the annotated version will be available soon on a different page.</p>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
+
+<hr>
+
+<h3>
+<a id="the-autonomous-program" class="anchor" href="#the-autonomous-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>The autonomous program:</h3>
+
+<ul>
+<li>Overall, there are 5 different PID subsystems, (custom, not prebuilt WPILib) 4 of which are in the autonomous program</li>
+<li>The robot is using custom voids to control exactly what it is doing. That way, everything is clean and ordered, and multiple arguments can be required without a mess.</li>
+</ul>
+
+<h3>
+<a id="the-tele-operated-program" class="anchor" href="#the-tele-operated-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>The tele-operated program</h3>
+
+<ul>
+<li>The program uses a PID loop to change the motor compensation depending on how many crates are on the elevator</li>
+<li>The program was optimized to ensure the least amount of button usage. (ensures ease of control under pressure)</li>
+<li>Features: tank drive and special axis controls</li>
+</ul>
+
+<hr>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
